@@ -33,7 +33,7 @@ print(intersection_as_list)
 dis_arr = np.array(intersection_as_list)
 print(dis_arr)
 print(len(dis_arr))
-dis_arr1 = dis_arr[0:10]
+dis_arr1 = dis_arr
 finale = pd.DataFrame()
 for dist in dis_arr1:
     f = df1.loc[df1['District'] == dist]
